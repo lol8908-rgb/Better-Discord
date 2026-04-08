@@ -1,0 +1,15 @@
+{
+  "info": {
+    "name": "Better Discord",
+    "authors": [
+      {
+        "name": "Your Name"
+      }
+    ],
+    "version": "1.0.0",
+    "description": "Ein umfassendes BetterDiscord Plugin mit UI-Verbesserungen, Hintergrundbild-Verwaltung und vielen neuen Features",
+    "website": "https://github.com/lol8908-rgb/Better-Discord",
+    "source": "https://github.com/lol8908-rgb/Better-Discord"
+  },
+  "main": "BetterDiscord.plugin.js"
+}

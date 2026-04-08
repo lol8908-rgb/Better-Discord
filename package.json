@@ -1,0 +1,23 @@
+{
+  "name": "better-discord",
+  "version": "1.0.0",
+  "description": "Better Discord - Der Discord Plugin Installer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "node scripts/build.js",
+    "build:exe": "node scripts/build-installer.js",
+    "build:all": "npm run build && node scripts/create-releases.js",
+    "create-releases": "node scripts/create-releases.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "archiver": "^6.0.2",
+    "typescript": "^5.3.3"
+  },
+  "author": "lol8908-rgb",
+  "license": "MIT"
+}
